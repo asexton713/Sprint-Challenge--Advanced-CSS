@@ -271,6 +271,9 @@ footer {
   .home .space-images img {
     width: 100%;
   }
+  .home .space-images img .launch {
+    display: none;
+  }
 }
 .home .visit-planets {
   padding: 15px;
