@@ -1,1 +1,20 @@
-// Mixins Here
+.center(){
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+    
+.layout(@justify, @align){
+        display: flex;
+        justify-content: @justify;
+        align-items: @align;
+}
+.font {
+    text-decoration: none;
+    color: black;
+}
+.btn-design(@color, @bg-color, @edges) {
+    color: @color;
+    background-color: @bg-color;
+    border-radius: @edges;
+}
